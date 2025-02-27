@@ -71,6 +71,28 @@ public class Operadores {
 
         // Operadores ternário é uma forma resumida para definir uma condição e decidir entre eles
 
+        int a, b;
+        a = 5;
+        b = 6;
+
+        /* EXEMPLO DE CONDICIONAL UTILIZANDO UMA ESTRUTURA IF/ELSE
+        String resulta = "";
+
+        if (a == b)
+            resulta = "verdadeiro";
+        else
+            resulta = "falso";
+
+        */
+
+        /*
+        <Expressão Condicional>`` ?``<Caso condição seja true>``: ``<Caso condição seja false>
+         */
+        //MESMA CONDICIONAL, MAS DESSA VEZ, UTILIZANDO O OPERADOR CONDICIONAL TERNÁRIO
+        String resulta = a == b ?"verdadeiro" : "falso";
+        
+        System.out.println(resulta);
+
 
 
 
