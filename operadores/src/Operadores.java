@@ -20,7 +20,7 @@ public class Operadores {
         int modulo = 18 % 3;
         double resultado = (10 * 7) + (20 / 4);
 
-        // quando usamos o sinal de adição (+) e quando a variável é tipo tetxto vai ocorre uma concatenação
+        // obs: quando usamos o sinal de adição (+) e quando a variável é tipo tetxto vai ocorre uma concatenação
         String nomeCompleto = "linguagem" + "Java";
 
         //qual o resultado das expressoes abaixo?
@@ -42,7 +42,7 @@ public class Operadores {
         concatenacao = "1"+(1+1+1);
         System.out.println(concatenacao);
 
-        // unarios são aplicados com um outro operador artimético.
+        // unarios são aplicados com um outro operador aritmético.
 
         int numero = 5;
 
@@ -54,6 +54,20 @@ public class Operadores {
         numero = numero * -1;
 
         System.out.println(numero);
+
+        //incrementando numero em mais 1 numero, imprime 6
+        numero ++;
+        System.out.println(numero);
+
+        //ordem de precedencia conta aqui
+        System.out.println(++ numero);
+
+        // nega um valor de uma expressão booleana
+        boolean variavel = true;
+
+        variavel = !variavel;
+
+        System.out.println(variavel);
 
         // Operadores ternário é uma forma resumida para definir uma condição e decidir entre eles
 
