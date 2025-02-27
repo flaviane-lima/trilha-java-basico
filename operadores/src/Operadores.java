@@ -1,4 +1,4 @@
-import java.util.Date;
+
 
 public class Operadores {
     public static void main(String[] args) {
@@ -7,7 +7,7 @@ public class Operadores {
         String nome = "Flaviane";
         int idade = 35;
         double peso = 62.5;
-        char sexo = 'M'; // caracter só permite um unico valo
+        char sexo = 'F'; // caracter só permite um unico valo
         boolean doadorOrgao = false;
         // date dataNascimento = new Date(); quando estamos criando um novo objeto na aplicação
 
