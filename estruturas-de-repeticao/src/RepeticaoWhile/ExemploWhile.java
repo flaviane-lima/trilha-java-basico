@@ -18,7 +18,7 @@ public class ExemploWhile {
                 mesada = mesada - valorDoce;
 
                 System.out.println("Mesada:" + mesada);
-                
+
                 System.out.println("João Rafael gastou toda a sua mesada em doce");
             }
 
