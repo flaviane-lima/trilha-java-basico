@@ -13,7 +13,7 @@ public class ExemploExcecao {
                 System.out.println(valor);
 
             } catch (ParseException e) {
-                e.printStackTrace();
+                System.out.println("Erro ao converter número: " + e.getMessage());
             }
 
 
